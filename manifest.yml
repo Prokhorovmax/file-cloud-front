@@ -1,0 +1,6 @@
+name: file-cloud
+memory: 64M
+path: build/
+buildpack: staticfile_buildpack
+routes:
+  - route: file-cloud.eu-gb.cf.appdomain.cloud/
